@@ -27,7 +27,8 @@ const Info = (props) => {
     props.setItems(parsedData);
   }
   useEffect(() => {
-    update()
+    update();
+    // eslint-disable-next-line
   }, [])
  
   const selfCheck=()=>{
